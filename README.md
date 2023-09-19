@@ -22,5 +22,5 @@ Para listar as branchs
 * git branch  
   
 Enviando tudo para o repositório  
-* git push -u nome_da_branch  
+* git push -u origin nome_da_branch  
 
