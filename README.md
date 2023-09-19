@@ -18,8 +18,11 @@ Dando nome ao commit
 Para mudar o nome da branch  
 * git branch -M nome  
   
-Para listar as branchs
+Para listar as branchs  
 * git branch  
+  
+Para trocar de branchs  
+* git checkout nome_da_branch  
   
 Enviando tudo para o repositório  
 * git push -u origin nome_da_branch  
