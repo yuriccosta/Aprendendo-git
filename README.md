@@ -2,6 +2,9 @@
 
 Esse repositório foi feito durante o minicurso de github da UESC  
   
+
+## Começando Repositório
+
 Iniciando o git
 * git init  
   
@@ -15,8 +18,16 @@ Adicionando o repositório de origem
 Dando nome ao commit
 * git commit -m "comentario"  
   
+Enviando tudo para o repositório  
+* git push -u origin nome_da_branch  
+
+## As Branchs
+
 Para mudar o nome da branch  
 * git branch -M nome  
+  
+Para criar uma branch  
+* git branch nome_da_branch  
   
 Para listar as branchs  
 * git branch  
@@ -24,6 +35,6 @@ Para listar as branchs
 Para trocar de branchs  
 * git checkout nome_da_branch  
   
-Enviando tudo para o repositório  
-* git push -u origin nome_da_branch  
-
+Para criar e entrar em uma branch  
+* git switch -c "nome_da_branch"  
+  
